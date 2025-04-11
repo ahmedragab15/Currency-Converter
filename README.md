@@ -14,6 +14,7 @@ A simple and responsive **Currency Converter** built using **HTML**, **CSS**, an
 ✅ **Real-Time Currency Conversion** using live API data  
 ✅ **Select Any Two Currencies** from dropdown lists  
 ✅ **Input Amount** to instantly get converted value  
+✅ **Swapping Currencies** with a single click  
 ✅ **Responsive Design** for mobile and desktop  
 
 ## 🔌 API Used
