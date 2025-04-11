@@ -36,7 +36,7 @@ label {
   display: block;
   font-weight: 600;
 }
-input#amount {
+input {
   font-size: 1.2em;
   font-weight: 400;
   display: block;
@@ -48,7 +48,7 @@ input#amount {
   outline: none;
   border-bottom: 2px solid #009688;
 }
-input#amount:focus {
+input:focus {
   color: #009688;
   border-color: #009688;
 }
@@ -65,7 +65,7 @@ select {
   border-radius: 3px;
   appearance: none;
   background: url("images/arrow-down.svg") no-repeat;
-  background-position: left 15px top 50%, center;
+  background-position: left 10px top 55%, center;
   background-size: 15px 15px;
   background-color: #009688;
   color: #fff;
@@ -84,13 +84,19 @@ button {
   width: 100%;
   background-color: #009688;
   padding: 1rem 0;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 5px;
   color: #fff;
   font-weight: 600;
   border: none;
   outline: none;
   cursor: pointer;
+}
+.swap {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 0;
+  padding: 0.6rem 1rem;
 }
 p {
   font-size: 1.2rem;
@@ -99,4 +105,7 @@ p {
   color: #fff;
   background-color: #009688;
   padding: 0.8em 0;
+}
+button:hover {
+  background: #0db1a0;
 }

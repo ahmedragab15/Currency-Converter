@@ -212,3 +212,10 @@ amount.addEventListener("focus", () => (amount.value = ""));
 amount.addEventListener("keyup", (e) => e.key === "Enter" && convertCurrency());
 document.querySelector("#convert-button").addEventListener("click", convertCurrency);
 window.addEventListener("load", convertCurrency);
+
+document.querySelector(".swap").addEventListener("click", () => {
+  const temp = fromDropDown.value;
+  fromDropDown.value = toDropDown.value;
+  toDropDown.value = temp;
+  convertCurrency();
+});
